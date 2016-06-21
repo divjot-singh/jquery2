@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery2</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("p").click(function(){
+				$("p").append("<p>This is click event.</p>");
+			});
+			$("p").dblclick(function(){
+				$("p").append("<p>This is double click event.</p>");
+			});
+		});
+	</script>
+</head>
+<body>
+	<p>Click me!</p>
+</body> 
+</body>
+</html>
